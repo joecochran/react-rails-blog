@@ -1,5 +1,6 @@
 import React from 'react';
 import axios from 'axios';
+import PropTypes from 'prop-types';
 import { passCsrfToken } from '../util/helpers';
 
 class NewPost extends React.Component {
@@ -51,5 +52,11 @@ class NewPost extends React.Component {
     );
   }
 }
+
+NewPost.propTypes = {
+  history: PropTypes.shape({
+    push: PropTypes.func,
+  }).isRequired,
+};
 
 export default NewPost;
