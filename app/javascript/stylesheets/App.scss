@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 1em;
+  background: linear-gradient(120deg, #32cec3 1%,#36b4c7 50%,#3f96d8 100%);
+
+  &__list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    margin-right: 1em;
+  }
+
+  &__link {
+    color: #fff;
+  }
+}
