@@ -5,29 +5,37 @@ import { passCsrfToken } from '../util/helpers';
 
 
 class Post extends React.Component {
-  state = {
-    post: {}
+  constructor(props) {
+    super(props);
+    this.state = {
+      post: {},
+    };
   }
+
 
   componentDidMount() {
     passCsrfToken(document, axios);
 
     const { id } = this.props.match.params;
 
-    axios.get('/api/posts/' + id).then(response => {
-      console.log(response.data.post);
+    axios.get(`/api/posts/${id}`).then((response) => {
       this.setState({ post: response.data.post });
     });
   }
-  
+
   render() {
+    const { post } = this.state;
     return (
       <article className="container">
-        <h1>{this.state.post.title}</h1>
-        <p>{distanceInWordsToNow(this.state.post.created_at)} ago</p>
-        <p>{this.state.post.body}</p>
+        <h1>{post.title}</h1>
+        <p>
+          {distanceInWordsToNow(post.created_at)}
+          {' '}
+ago
+        </p>
+        <p>{post.body}</p>
       </article>
-    )
+    );
   }
 }
 

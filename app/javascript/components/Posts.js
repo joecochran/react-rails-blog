@@ -4,20 +4,12 @@ import { Link } from 'react-router-dom';
 import { passCsrfToken } from '../util/helpers';
 
 class Posts extends React.Component {
-  state = {
-    posts: []
-  }
+  constructor(props) {
+    super(props);
 
-  getPosts = () => {
-    axios.get('/api/posts').then(response => {
-      this.setState({ posts: response.data.posts });
-    })
-  }
-
-  deletePost = (id) => {
-    axios.delete('/api/posts/' + id).then(response => {
-      this.getPosts();
-    })
+    this.state = {
+      posts: [],
+    };
   }
 
   componentDidMount() {
@@ -25,18 +17,31 @@ class Posts extends React.Component {
     this.getPosts();
   }
 
-  renderAllPosts = () => {
+  getPosts() {
+    axios.get('/api/posts').then((response) => {
+      this.setState({ posts: response.data.posts });
+    });
+  }
+
+  deletePost(id) {
+    axios.delete(`/api/posts/${id}`).then(() => {
+      this.getPosts();
+    });
+  }
+
+  renderAllPosts() {
+    const { posts } = this.state;
     return (
       <ul>
-        {this.state.posts.map(post => (
+        {posts.map(post => (
           <li key={post.id}>
             <Link to={`/posts/${post.id}`}>{post.title}</Link>
-            <button onClick={() => this.deletePost(post.id)}>del</button>
+            <button type="button" onClick={() => this.deletePost(post.id)}>del</button>
           </li>
         ))}
       </ul>
-    )
-  };
+    );
+  }
 
   render() {
     return (
@@ -44,7 +49,7 @@ class Posts extends React.Component {
         <h1>Posts</h1>
         {this.renderAllPosts()}
       </div>
-    )
+    );
   }
 }
 
