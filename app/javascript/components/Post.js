@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
+import Markdown from 'markdown-to-jsx';
 import { distanceInWordsToNow } from 'date-fns';
 import { passCsrfToken } from '../util/helpers';
 
@@ -8,7 +9,9 @@ class Post extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      post: {},
+      post: {
+        body: '',
+      },
     };
   }
 
@@ -32,7 +35,10 @@ class Post extends React.Component {
           {' '}
 ago
         </p>
-        <p>{post.body}</p>
+        <div>
+          <Markdown>{post.body}</Markdown>
+        </div>
+
       </article>
     );
   }

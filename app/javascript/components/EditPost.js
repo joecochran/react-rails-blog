@@ -8,6 +8,9 @@ class EditPost extends React.Component {
       title: '',
       body: '',
     };
+
+    this.handleChange = this.handleChange.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   render() {

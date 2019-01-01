@@ -1,6 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
+import Markdown from 'markdown-to-jsx';
+import { distanceInWordsToNow } from 'date-fns';
 import { passCsrfToken } from '../util/helpers';
 
 class Posts extends React.Component {
@@ -32,14 +34,24 @@ class Posts extends React.Component {
   renderAllPosts() {
     const { posts } = this.state;
     return (
-      <ul>
+      <div>
         {posts.map(post => (
-          <li key={post.id}>
-            <Link to={`/posts/${post.id}`}>{post.title}</Link>
-            <button type="button" onClick={() => this.deletePost(post.id)}>del</button>
-          </li>
+          <article className="post" key={post.id}>
+            <header className="post__header">
+              <Link to={`/posts/${post.id}`}><h2>{post.title}</h2></Link>
+              <time dateTime={post.created_at}>
+                {`${distanceInWordsToNow(post.created_at)} ago`}
+              </time>
+              <div className="post__menu">
+                <button type="button" onClick={() => this.deletePost(post.id)}>del</button>
+              </div>
+            </header>
+            <div>
+              <Markdown>{post.body}</Markdown>
+            </div>
+          </article>
         ))}
-      </ul>
+      </div>
     );
   }
 
