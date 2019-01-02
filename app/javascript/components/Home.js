@@ -1,7 +1,6 @@
 import React from 'react';
 
 class Home extends React.Component {
-
   componentDidMount() {
     document.title = 'Dashboard';
   }
@@ -13,7 +12,6 @@ class Home extends React.Component {
       </div>
     );
   }
-
 }
 
 export default Home;

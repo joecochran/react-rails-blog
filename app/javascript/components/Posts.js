@@ -1,7 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import Markdown from 'markdown-to-jsx';
 import { distanceInWordsToNow } from 'date-fns';
 import { passCsrfToken } from '../util/helpers';
 

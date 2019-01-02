@@ -47,7 +47,9 @@ class NewPost extends React.Component {
           <div className="w-1/2 mr-3">
             <form onSubmit={e => this.handleSubmit(e)} className="">
               <div className="mb-6">
-                <label htmlFor="title" className="block text-grey-darker text-sm font-bold mb-2">Post Title</label>
+                <label htmlFor="title" className="block text-grey-darker text-sm font-bold mb-2">
+                  Post Title
+                </label>
                 <input id="title" type="text" name="title" onChange={this.handleChange} className="appearance-none border rounded w-full py-2 px-3 text-grey-darker leading-tight focus:outline-none focus:shadow-outline" />
               </div>
               <div className="mb-6">
