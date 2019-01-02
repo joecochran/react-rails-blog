@@ -28,12 +28,10 @@ class Post extends React.Component {
   render() {
     const { post } = this.state;
     return (
-      <article className="container">
+      <article className="container mx-auto">
         <h1>{post.title}</h1>
         <p>
-          {distanceInWordsToNow(post.created_at)}
-          {' '}
-ago
+          {`${distanceInWordsToNow(post.created_at)} ago`}
         </p>
         <div>
           <Markdown>{post.body}</Markdown>

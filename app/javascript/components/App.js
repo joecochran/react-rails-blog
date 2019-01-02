@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch, NavLink } from 'react-router-dom';
 import Home from './Home';
 import Posts from './Posts';
 import NewPost from './NewPost';
@@ -9,20 +9,20 @@ import '../stylesheets/App.scss';
 function App() {
   return (
     <div>
-      <nav className="nav">
-        <div className="container">
-          <ul className="nav__list">
-            <li className="nav__item"><Link to="/" className="nav__link">Home</Link></li>
-            <li className="nav__item"><Link to="/posts" className="nav__link">Posts</Link></li>
-            <li className="nav__item"><Link to="/new_post" className="nav__link">New Post</Link></li>
+      <nav className="bg-teal p-6">
+        <div className="container mx-auto">
+          <ul className="list-reset flex">
+            <li className="mr-6"><NavLink to="/admin" className="text-teal-lightest">Dashboard</NavLink></li>
+            <li className="mr-6"><NavLink to="/admin/posts" className="text-teal-lightest">Posts</NavLink></li>
+            <li className="mr-6"><NavLink to="/admin/new_post" className="text-teal-lightest">New Post</NavLink></li>
           </ul>
         </div>
       </nav>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/posts" component={Posts} />
-        <Route exact path="/posts/:id" component={Post} />
-        <Route exact path="/new_post" component={NewPost} />
+        <Route exact path="/admin" component={Home} />
+        <Route exact path="/admin/posts" component={Posts} />
+        <Route exact path="/admin/posts/:id" component={Post} />
+        <Route exact path="/admin/new_post" component={NewPost} />
       </Switch>
     </div>
   );

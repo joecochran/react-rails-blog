@@ -17,6 +17,7 @@ class Posts extends React.Component {
   componentDidMount() {
     passCsrfToken(document, axios);
     this.getPosts();
+    document.title = 'All Posts';
   }
 
   getPosts() {
@@ -34,31 +35,37 @@ class Posts extends React.Component {
   renderAllPosts() {
     const { posts } = this.state;
     return (
-      <div>
-        {posts.map(post => (
-          <article className="post" key={post.id}>
-            <header className="post__header">
-              <Link to={`/posts/${post.id}`}><h2>{post.title}</h2></Link>
-              <time dateTime={post.created_at}>
-                {`${distanceInWordsToNow(post.created_at)} ago`}
-              </time>
-              <div className="post__menu">
-                <button type="button" onClick={() => this.deletePost(post.id)}>del</button>
-              </div>
-            </header>
-            <div>
-              <Markdown>{post.body}</Markdown>
-            </div>
-          </article>
-        ))}
-      </div>
+      <table className="w-full text-left table-collapse table-auto">
+        <thead>
+          <tr>
+            <th className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest">Name</th>
+            <th className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest">Date</th>
+            <th className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest" />
+          </tr>
+        </thead>
+        <tbody>
+          {posts.map(post => (
+            <tr>
+              <td className="p-2 pl-0 border-t border-grey-light whitespace-no-wrap">
+                <Link to={`/admin/posts/${post.id}`} className="text-teal-dark hover:text-teal-darker">{post.title}</Link>
+              </td>
+              <td className="p-2 border-t border-grey-light text-sm whitespace-no-wrap">
+                <time dateTime={post.created_at}>{`${distanceInWordsToNow(post.created_at)} ago`}</time>
+              </td>
+              <td className="p-2 pr-0 border-t text-right border-grey-light text-xs whitespace-no-wrap">
+                <button className="bg-red text-white hover:bg-red-dark font-bold rounded p-2" type="button" onClick={() => this.deletePost(post.id)}>Delete</button>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     );
   }
 
   render() {
     return (
-      <div className="container">
-        <h1>Posts</h1>
+      <div className="container mx-auto">
+        <h1 className="mt-6 mb-6">Posts</h1>
         {this.renderAllPosts()}
       </div>
     );

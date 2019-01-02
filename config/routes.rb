@@ -5,5 +5,5 @@ Rails.application.routes.draw do
     resources :posts, only: [ :index, :create, :show, :destroy ]
   end
 
-  match '*path', to: 'pages#index', via: :all
+  match '*path', to: 'admin#index', via: :all
 end
