@@ -18,6 +18,7 @@
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
+    "babel-jest": "^23.6.0",
     "eslint": "^5.11.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
@@ -30,6 +31,10 @@
   "jest": {
     "roots": [
       "spec/javascript"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "app/javascript"
     ]
   }
 }
