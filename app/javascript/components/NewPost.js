@@ -40,6 +40,7 @@ class NewPost extends React.Component {
   }
 
   render() {
+    const { title, body } = this.state;
     return (
       <div className="container mx-auto">
         <h1 className="mb-6 mt-6">New Post</h1>
@@ -62,9 +63,9 @@ class NewPost extends React.Component {
           <div className="w-1/2 ml-3">
             <div className="block text-grey-darker text-sm font-bold mb-2 ml-4">Preview</div>
             <div className="p-4 border rounded markdown">
-              <Markdown>{`# ${this.state.title}`}</Markdown>
+              <Markdown>{`# ${title}`}</Markdown>
               <Markdown>
-                {this.state.body}
+                {body}
               </Markdown>
             </div>
           </div>
