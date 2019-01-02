@@ -18,6 +18,7 @@
     "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
+    "axios-mock-adapter": "^1.15.0",
     "babel-jest": "^23.6.0",
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
