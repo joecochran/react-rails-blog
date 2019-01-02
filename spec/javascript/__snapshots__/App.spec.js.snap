@@ -1,0 +1,877 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <nav
+          className="bg-teal p-6"
+        >
+          <div
+            className="container mx-auto"
+          >
+            <ul
+              className="list-reset flex"
+            >
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin"
+                >
+                  Dashboard
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/posts"
+                >
+                  Posts
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/new_post"
+                >
+                  New Post
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </nav>,
+        <Switch>
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/admin"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/admin/posts"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/admin/posts/:id"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/admin/new_post"
+          />
+        </Switch>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container mx-auto"
+          >
+            <ul
+              className="list-reset flex"
+            >
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin"
+                >
+                  Dashboard
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/posts"
+                >
+                  Posts
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/new_post"
+                >
+                  New Post
+                </NavLink>
+              </li>
+            </ul>
+          </div>,
+          "className": "bg-teal p-6",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul
+              className="list-reset flex"
+            >
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin"
+                >
+                  Dashboard
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/posts"
+                >
+                  Posts
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/new_post"
+                >
+                  New Post
+                </NavLink>
+              </li>
+            </ul>,
+            "className": "container mx-auto",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin"
+                  >
+                    Dashboard
+                  </NavLink>
+                </li>,
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/posts"
+                  >
+                    Posts
+                  </NavLink>
+                </li>,
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/new_post"
+                  >
+                    New Post
+                  </NavLink>
+                </li>,
+              ],
+              "className": "list-reset flex",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin"
+                  >
+                    Dashboard
+                  </NavLink>,
+                  "className": "mr-6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "Dashboard",
+                    "className": "text-teal-lightest",
+                    "to": "/admin",
+                  },
+                  "ref": null,
+                  "rendered": "Dashboard",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/posts"
+                  >
+                    Posts
+                  </NavLink>,
+                  "className": "mr-6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "Posts",
+                    "className": "text-teal-lightest",
+                    "to": "/admin/posts",
+                  },
+                  "ref": null,
+                  "rendered": "Posts",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/new_post"
+                  >
+                    New Post
+                  </NavLink>,
+                  "className": "mr-6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "New Post",
+                    "className": "text-teal-lightest",
+                    "to": "/admin/new_post",
+                  },
+                  "ref": null,
+                  "rendered": "New Post",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          "type": "div",
+        },
+        "type": "nav",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/posts"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/posts/:id"
+            />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/new_post"
+            />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/admin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/admin/posts",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/admin/posts/:id",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/admin/new_post",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <nav
+            className="bg-teal p-6"
+          >
+            <div
+              className="container mx-auto"
+            >
+              <ul
+                className="list-reset flex"
+              >
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin"
+                  >
+                    Dashboard
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/posts"
+                  >
+                    Posts
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/new_post"
+                  >
+                    New Post
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </nav>,
+          <Switch>
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/posts"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/posts/:id"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/new_post"
+            />
+          </Switch>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container mx-auto"
+            >
+              <ul
+                className="list-reset flex"
+              >
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin"
+                  >
+                    Dashboard
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/posts"
+                  >
+                    Posts
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/new_post"
+                  >
+                    New Post
+                  </NavLink>
+                </li>
+              </ul>
+            </div>,
+            "className": "bg-teal p-6",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <ul
+                className="list-reset flex"
+              >
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin"
+                  >
+                    Dashboard
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/posts"
+                  >
+                    Posts
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/new_post"
+                  >
+                    New Post
+                  </NavLink>
+                </li>
+              </ul>,
+              "className": "container mx-auto",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="mr-6"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin"
+                    >
+                      Dashboard
+                    </NavLink>
+                  </li>,
+                  <li
+                    className="mr-6"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin/posts"
+                    >
+                      Posts
+                    </NavLink>
+                  </li>,
+                  <li
+                    className="mr-6"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin/new_post"
+                    >
+                      New Post
+                    </NavLink>
+                  </li>,
+                ],
+                "className": "list-reset flex",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin"
+                    >
+                      Dashboard
+                    </NavLink>,
+                    "className": "mr-6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "activeClassName": "active",
+                      "aria-current": "page",
+                      "children": "Dashboard",
+                      "className": "text-teal-lightest",
+                      "to": "/admin",
+                    },
+                    "ref": null,
+                    "rendered": "Dashboard",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin/posts"
+                    >
+                      Posts
+                    </NavLink>,
+                    "className": "mr-6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "activeClassName": "active",
+                      "aria-current": "page",
+                      "children": "Posts",
+                      "className": "text-teal-lightest",
+                      "to": "/admin/posts",
+                    },
+                    "ref": null,
+                    "rendered": "Posts",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin/new_post"
+                    >
+                      New Post
+                    </NavLink>,
+                    "className": "mr-6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "activeClassName": "active",
+                      "aria-current": "page",
+                      "children": "New Post",
+                      "className": "text-teal-lightest",
+                      "to": "/admin/new_post",
+                    },
+                    "ref": null,
+                    "rendered": "New Post",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+              ],
+              "type": "ul",
+            },
+            "type": "div",
+          },
+          "type": "nav",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/admin"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/admin/posts"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/admin/posts/:id"
+              />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/admin/new_post"
+              />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/admin",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/admin/posts",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/admin/posts/:id",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/admin/new_post",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
