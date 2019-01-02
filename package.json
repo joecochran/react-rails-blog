@@ -1,6 +1,10 @@
 {
   "name": "rails-with-react",
   "private": true,
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch"
+  },
   "dependencies": {
     "@rails/webpacker": "3.5",
     "axios": "^0.18.0",
@@ -20,6 +24,12 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.0",
+    "jest": "^23.6.0",
     "webpack-dev-server": "2.11.2"
+  },
+  "jest": {
+    "roots": [
+      "spec/javascript"
+    ]
   }
 }
