@@ -1,0 +1,397 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`home component renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Posts />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1
+          className="mt-6 mb-6"
+        >
+          Posts
+        </h1>,
+        <table
+          className="w-full text-left table-collapse table-auto"
+        >
+          <thead>
+            <tr>
+              <th
+                className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+              >
+                Name
+              </th>
+              <th
+                className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+              >
+                Date
+              </th>
+              <th
+                className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+              />
+            </tr>
+          </thead>
+          <tbody />
+        </table>,
+      ],
+      "className": "container mx-auto",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Posts",
+          "className": "mt-6 mb-6",
+        },
+        "ref": null,
+        "rendered": "Posts",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <thead>
+              <tr>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                >
+                  Name
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
+                  Date
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                />
+              </tr>
+            </thead>,
+            <tbody />,
+          ],
+          "className": "w-full text-left table-collapse table-auto",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                >
+                  Name
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
+                  Date
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                />
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                  >
+                    Name
+                  </th>,
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                  >
+                    Date
+                  </th>,
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Name",
+                    "className": "text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest",
+                  },
+                  "ref": null,
+                  "rendered": "Name",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Date",
+                    "className": "text-sm font-semibold text-grey-darker p-2 bg-grey-lightest",
+                  },
+                  "ref": null,
+                  "rendered": "Date",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [],
+            },
+            "ref": null,
+            "rendered": Array [],
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1
+            className="mt-6 mb-6"
+          >
+            Posts
+          </h1>,
+          <table
+            className="w-full text-left table-collapse table-auto"
+          >
+            <thead>
+              <tr>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                >
+                  Name
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
+                  Date
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                />
+              </tr>
+            </thead>
+            <tbody />
+          </table>,
+        ],
+        "className": "container mx-auto",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Posts",
+            "className": "mt-6 mb-6",
+          },
+          "ref": null,
+          "rendered": "Posts",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                  >
+                    Name
+                  </th>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                  >
+                    Date
+                  </th>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                  />
+                </tr>
+              </thead>,
+              <tbody />,
+            ],
+            "className": "w-full text-left table-collapse table-auto",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                  >
+                    Name
+                  </th>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                  >
+                    Date
+                  </th>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                  />
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th
+                      className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
+                    >
+                      Name
+                    </th>,
+                    <th
+                      className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                    >
+                      Date
+                    </th>,
+                    <th
+                      className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest"
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Name",
+                      "className": "text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest",
+                    },
+                    "ref": null,
+                    "rendered": "Name",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Date",
+                      "className": "text-sm font-semibold text-grey-darker p-2 bg-grey-lightest",
+                    },
+                    "ref": null,
+                    "rendered": "Date",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [],
+              },
+              "ref": null,
+              "rendered": Array [],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

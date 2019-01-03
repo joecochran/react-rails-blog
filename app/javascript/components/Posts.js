@@ -44,7 +44,7 @@ class Posts extends React.Component {
         </thead>
         <tbody>
           {posts.map(post => (
-            <tr>
+            <tr key={post.id}>
               <td className="p-2 pl-0 border-t border-grey-light whitespace-no-wrap">
                 <Link to={`/admin/posts/${post.id}`} className="text-teal-dark hover:text-teal-darker">{post.title}</Link>
               </td>
