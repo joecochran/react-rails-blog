@@ -35,7 +35,7 @@ class NewPost extends React.Component {
     };
 
     axios.post('/api/posts', post).then(() => {
-      history.push('/admin/posts');
+      history.push('/admin/posts/');
     });
   }
 

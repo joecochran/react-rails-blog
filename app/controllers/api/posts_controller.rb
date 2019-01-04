@@ -13,7 +13,9 @@ module API
     end
 
     def create
-      Post.create(title: params[:post_title], body: params[:post_body])
+      post = Post.create(title: params[:post_title], body: params[:post_body])
+
+      render json: { id: post.id }
     end
 
     def destroy
