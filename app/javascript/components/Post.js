@@ -17,6 +17,7 @@ class Post extends React.Component {
 
   componentDidMount() {
     passCsrfToken(document, axios);
+    document.title = 'Edit Post';
     const { match } = this.props;
     const { id } = match.params;
 
@@ -32,14 +33,16 @@ class Post extends React.Component {
   handleSubmit(event) {
     const { title, body } = this.state;
     const { history } = this.props;
+    const { match } = this.props;
+    const { id } = match.params;
     event.preventDefault();
 
     const post = {
-      post_title: title,
-      post_body: body,
+      title,
+      body,
     };
 
-    axios.post('/api/posts', post).then(() => {
+    axios.put(`/api/posts/${id}`, post).then(() => {
       history.push('/admin/posts');
     });
   }

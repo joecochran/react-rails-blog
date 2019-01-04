@@ -25,5 +25,19 @@ module API
 
       render json: { post: post }
     end
+
+    def update
+      post = Post.find(params[:id])
+
+      post.update(post_params)
+
+      render json: { id: post.id }
+    end
+
+    private
+
+      def post_params
+        params.require(:post).permit(:title, :body)
+      end
   end
 end
