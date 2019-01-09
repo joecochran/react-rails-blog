@@ -1,6 +1,6 @@
 # React + Rails Blog
 
-[![CircleCI](https://circleci.com/gh/joecochran/react-rails-boilerplate.svg?style=svg)](https://circleci.com/gh/joecochran/react-rails-boilerplate)
+[![CircleCI](https://circleci.com/gh/joecochran/react-rails-blog.svg?style=svg)](https://circleci.com/gh/joecochran/react-rails-blog)
 
 ## Requirements:
 
