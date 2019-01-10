@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/joecochran/react-rails-blog.svg?style=svg)](https://circleci.com/gh/joecochran/react-rails-blog)
 
+A simple blog written in rails with a react admin area.
+
 ## Requirements:
 
 - Ruby 2.5.3
