@@ -23,3 +23,7 @@ A simple blog written in rails with a react admin area.
 
 - `bin/rails s`
 - `bin/webpack-dev-server`
+
+## Testing
+
+- Jest / Enzyme tests `yarn test`
