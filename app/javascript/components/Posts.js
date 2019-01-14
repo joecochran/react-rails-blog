@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { distanceInWordsToNow } from 'date-fns';
 import { passCsrfToken } from '../util/helpers';
 
@@ -65,6 +65,7 @@ class Posts extends Component {
     return (
       <div className="container mx-auto">
         <h1 className="mt-6 mb-6">Posts</h1>
+        <NavLink to="/admin/new_post" className="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded no-underline mb-6 inline-block">New Post</NavLink>
         {this.renderAllPosts()}
       </div>
     );

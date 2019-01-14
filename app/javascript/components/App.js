@@ -22,9 +22,7 @@ function App() {
             <li className="mr-6">
               <NavLink to="/admin/categories" className="text-teal-lightest">Categories</NavLink>
             </li>
-            <li className="mr-6">
-              <NavLink to="/admin/new_post" className="text-teal-lightest">New Post</NavLink>
-            </li>
+            <li className="mr-6" />
           </ul>
         </div>
       </nav>

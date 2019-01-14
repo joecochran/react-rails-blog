@@ -7,6 +7,10 @@ class Categories extends Component {
 
   };
 
+  componentDidMount() {
+    document.title = 'All Categories';
+  }
+
   render() {
     return (
       <div className="container mx-auto">
