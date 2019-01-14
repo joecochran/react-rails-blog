@@ -36,6 +36,11 @@ ShallowWrapper {
               <th
                 className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
               >
+                Category
+              </th>
+              <th
+                className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+              >
                 Date
               </th>
               <th
@@ -78,6 +83,11 @@ ShallowWrapper {
                 <th
                   className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
                 >
+                  Category
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
                   Date
                 </th>
                 <th
@@ -105,6 +115,11 @@ ShallowWrapper {
                 <th
                   className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
                 >
+                  Category
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
                   Date
                 </th>
                 <th
@@ -123,6 +138,11 @@ ShallowWrapper {
                     className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
                   >
                     Name
+                  </th>,
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                  >
+                    Category
                   </th>,
                   <th
                     className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
@@ -146,6 +166,18 @@ ShallowWrapper {
                   },
                   "ref": null,
                   "rendered": "Name",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Category",
+                    "className": "text-sm font-semibold text-grey-darker p-2 bg-grey-lightest",
+                  },
+                  "ref": null,
+                  "rendered": "Category",
                   "type": "th",
                 },
                 Object {
@@ -218,6 +250,11 @@ ShallowWrapper {
                 <th
                   className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
                 >
+                  Category
+                </th>
+                <th
+                  className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                >
                   Date
                 </th>
                 <th
@@ -260,6 +297,11 @@ ShallowWrapper {
                   <th
                     className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
                   >
+                    Category
+                  </th>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                  >
                     Date
                   </th>
                   <th
@@ -287,6 +329,11 @@ ShallowWrapper {
                   <th
                     className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
                   >
+                    Category
+                  </th>
+                  <th
+                    className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                  >
                     Date
                   </th>
                   <th
@@ -305,6 +352,11 @@ ShallowWrapper {
                       className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest"
                     >
                       Name
+                    </th>,
+                    <th
+                      className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
+                    >
+                      Category
                     </th>,
                     <th
                       className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest"
@@ -328,6 +380,18 @@ ShallowWrapper {
                     },
                     "ref": null,
                     "rendered": "Name",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Category",
+                      "className": "text-sm font-semibold text-grey-darker p-2 bg-grey-lightest",
+                    },
+                    "ref": null,
+                    "rendered": "Category",
                     "type": "th",
                   },
                   Object {
