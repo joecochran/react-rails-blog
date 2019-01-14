@@ -65,16 +65,7 @@ ShallowWrapper {
               </li>
               <li
                 className="mr-6"
-              >
-                <NavLink
-                  activeClassName="active"
-                  aria-current="page"
-                  className="text-teal-lightest"
-                  to="/admin/new_post"
-                >
-                  New Post
-                </NavLink>
-              </li>
+              />
             </ul>
           </div>
         </nav>,
@@ -158,16 +149,7 @@ ShallowWrapper {
               </li>
               <li
                 className="mr-6"
-              >
-                <NavLink
-                  activeClassName="active"
-                  aria-current="page"
-                  className="text-teal-lightest"
-                  to="/admin/new_post"
-                >
-                  New Post
-                </NavLink>
-              </li>
+              />
             </ul>
           </div>,
           "className": "bg-teal p-6",
@@ -219,16 +201,7 @@ ShallowWrapper {
               </li>
               <li
                 className="mr-6"
-              >
-                <NavLink
-                  activeClassName="active"
-                  aria-current="page"
-                  className="text-teal-lightest"
-                  to="/admin/new_post"
-                >
-                  New Post
-                </NavLink>
-              </li>
+              />
             </ul>,
             "className": "container mx-auto",
           },
@@ -277,16 +250,7 @@ ShallowWrapper {
                 </li>,
                 <li
                   className="mr-6"
-                >
-                  <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="text-teal-lightest"
-                    to="/admin/new_post"
-                  >
-                    New Post
-                  </NavLink>
-                </li>,
+                />,
               ],
               "className": "list-reset flex",
             },
@@ -396,32 +360,10 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="text-teal-lightest"
-                    to="/admin/new_post"
-                  >
-                    New Post
-                  </NavLink>,
                   "className": "mr-6",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "function",
-                  "props": Object {
-                    "activeClassName": "active",
-                    "aria-current": "page",
-                    "children": "New Post",
-                    "className": "text-teal-lightest",
-                    "to": "/admin/new_post",
-                  },
-                  "ref": null,
-                  "rendered": "New Post",
-                  "type": [Function],
-                },
+                "rendered": null,
                 "type": "li",
               },
             ],
@@ -591,16 +533,7 @@ ShallowWrapper {
                 </li>
                 <li
                   className="mr-6"
-                >
-                  <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="text-teal-lightest"
-                    to="/admin/new_post"
-                  >
-                    New Post
-                  </NavLink>
-                </li>
+                />
               </ul>
             </div>
           </nav>,
@@ -684,16 +617,7 @@ ShallowWrapper {
                 </li>
                 <li
                   className="mr-6"
-                >
-                  <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="text-teal-lightest"
-                    to="/admin/new_post"
-                  >
-                    New Post
-                  </NavLink>
-                </li>
+                />
               </ul>
             </div>,
             "className": "bg-teal p-6",
@@ -745,16 +669,7 @@ ShallowWrapper {
                 </li>
                 <li
                   className="mr-6"
-                >
-                  <NavLink
-                    activeClassName="active"
-                    aria-current="page"
-                    className="text-teal-lightest"
-                    to="/admin/new_post"
-                  >
-                    New Post
-                  </NavLink>
-                </li>
+                />
               </ul>,
               "className": "container mx-auto",
             },
@@ -803,16 +718,7 @@ ShallowWrapper {
                   </li>,
                   <li
                     className="mr-6"
-                  >
-                    <NavLink
-                      activeClassName="active"
-                      aria-current="page"
-                      className="text-teal-lightest"
-                      to="/admin/new_post"
-                    >
-                      New Post
-                    </NavLink>
-                  </li>,
+                  />,
                 ],
                 "className": "list-reset flex",
               },
@@ -922,32 +828,10 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <NavLink
-                      activeClassName="active"
-                      aria-current="page"
-                      className="text-teal-lightest"
-                      to="/admin/new_post"
-                    >
-                      New Post
-                    </NavLink>,
                     "className": "mr-6",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "function",
-                    "props": Object {
-                      "activeClassName": "active",
-                      "aria-current": "page",
-                      "children": "New Post",
-                      "className": "text-teal-lightest",
-                      "to": "/admin/new_post",
-                    },
-                    "ref": null,
-                    "rendered": "New Post",
-                    "type": [Function],
-                  },
+                  "rendered": null,
                   "type": "li",
                 },
               ],

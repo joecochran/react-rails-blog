@@ -23,6 +23,14 @@ ShallowWrapper {
         >
           Posts
         </h1>,
+        <NavLink
+          activeClassName="active"
+          aria-current="page"
+          className="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded no-underline mb-6 inline-block"
+          to="/admin/new_post"
+        >
+          New Post
+        </NavLink>,
         <table
           className="w-full text-left table-collapse table-auto"
         >
@@ -66,6 +74,21 @@ ShallowWrapper {
         "ref": null,
         "rendered": "Posts",
         "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "activeClassName": "active",
+          "aria-current": "page",
+          "children": "New Post",
+          "className": "bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded no-underline mb-6 inline-block",
+          "to": "/admin/new_post",
+        },
+        "ref": null,
+        "rendered": "New Post",
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -237,6 +260,14 @@ ShallowWrapper {
           >
             Posts
           </h1>,
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            className="bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded no-underline mb-6 inline-block"
+            to="/admin/new_post"
+          >
+            New Post
+          </NavLink>,
           <table
             className="w-full text-left table-collapse table-auto"
           >
@@ -280,6 +311,21 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Posts",
           "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "aria-current": "page",
+            "children": "New Post",
+            "className": "bg-blue hover:bg-blue-dark text-white font-bold py-2 px-4 rounded no-underline mb-6 inline-block",
+            "to": "/admin/new_post",
+          },
+          "ref": null,
+          "rendered": "New Post",
+          "type": [Function],
         },
         Object {
           "instance": null,
