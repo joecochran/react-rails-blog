@@ -6,4 +6,5 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Post.create(title: 'Hello world!', body: 'This is the first post!')
+Category.create(title: 'General')
+Post.create(title: 'Hello world!', body: 'This is the first post!', category_id: 1)
