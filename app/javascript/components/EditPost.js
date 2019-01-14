@@ -1,17 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class EditPost extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      title: '',
-      body: '',
-    };
-
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+class EditPost extends Component {
+  state = {
+    title: '',
+    body: '',
+  };
 
   render() {
     const { title, body } = this.state;

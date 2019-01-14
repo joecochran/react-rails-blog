@@ -1,6 +1,8 @@
 {
     "extends": [
-      "airbnb"
+      "airbnb",
+      "plugin:react/recommended",
+      "plugin:jsx-a11y/recommended"
     ],
     "root": true,
     "env": {
@@ -10,8 +12,12 @@
     },
     "plugins": [
       "prettier",
-      "jest"
+      "jest",
+      "react",
+      "import",
+      "jsx-a11y"
     ],
+    "parser": "babel-eslint",
     "rules": {
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "jsx-a11y/label-has-for": [ 2, {

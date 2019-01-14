@@ -1,17 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { distanceInWordsToNow } from 'date-fns';
 import { passCsrfToken } from '../util/helpers';
 
-class Posts extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      posts: [],
-    };
-  }
+class Posts extends Component {
+  state = {
+    posts: [],
+  };
 
   componentDidMount() {
     passCsrfToken(document, axios);

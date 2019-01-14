@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-class Home extends React.Component {
+class Home extends Component {
   componentDidMount() {
     document.title = 'Dashboard';
   }

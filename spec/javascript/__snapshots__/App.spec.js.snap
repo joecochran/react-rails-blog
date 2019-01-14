@@ -58,6 +58,18 @@ ShallowWrapper {
                   activeClassName="active"
                   aria-current="page"
                   className="text-teal-lightest"
+                  to="/admin/categories"
+                >
+                  Categories
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
                   to="/admin/new_post"
                 >
                   New Post
@@ -86,6 +98,11 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/admin/new_post"
+          />
+          <Route
+            component={[Function]}
+            exact={true}
+            path="/admin/categories"
           />
         </Switch>,
       ],
@@ -125,6 +142,18 @@ ShallowWrapper {
                   to="/admin/posts"
                 >
                   Posts
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
+                  to="/admin/categories"
+                >
+                  Categories
                 </NavLink>
               </li>
               <li
@@ -183,6 +212,18 @@ ShallowWrapper {
                   activeClassName="active"
                   aria-current="page"
                   className="text-teal-lightest"
+                  to="/admin/categories"
+                >
+                  Categories
+                </NavLink>
+              </li>
+              <li
+                className="mr-6"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  className="text-teal-lightest"
                   to="/admin/new_post"
                 >
                   New Post
@@ -220,6 +261,18 @@ ShallowWrapper {
                     to="/admin/posts"
                   >
                     Posts
+                  </NavLink>
+                </li>,
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/categories"
+                  >
+                    Categories
                   </NavLink>
                 </li>,
                 <li
@@ -314,6 +367,39 @@ ShallowWrapper {
                     activeClassName="active"
                     aria-current="page"
                     className="text-teal-lightest"
+                    to="/admin/categories"
+                  >
+                    Categories
+                  </NavLink>,
+                  "className": "mr-6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "Categories",
+                    "className": "text-teal-lightest",
+                    "to": "/admin/categories",
+                  },
+                  "ref": null,
+                  "rendered": "Categories",
+                  "type": [Function],
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
                     to="/admin/new_post"
                   >
                     New Post
@@ -371,6 +457,11 @@ ShallowWrapper {
               exact={true}
               path="/admin/new_post"
             />,
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/categories"
+            />,
           ],
         },
         "ref": null,
@@ -422,6 +513,19 @@ ShallowWrapper {
               "component": [Function],
               "exact": true,
               "path": "/admin/new_post",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "exact": true,
+              "path": "/admin/categories",
             },
             "ref": null,
             "rendered": null,
@@ -480,6 +584,18 @@ ShallowWrapper {
                     activeClassName="active"
                     aria-current="page"
                     className="text-teal-lightest"
+                    to="/admin/categories"
+                  >
+                    Categories
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
                     to="/admin/new_post"
                   >
                     New Post
@@ -508,6 +624,11 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/admin/new_post"
+            />
+            <Route
+              component={[Function]}
+              exact={true}
+              path="/admin/categories"
             />
           </Switch>,
         ],
@@ -547,6 +668,18 @@ ShallowWrapper {
                     to="/admin/posts"
                   >
                     Posts
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
+                    to="/admin/categories"
+                  >
+                    Categories
                   </NavLink>
                 </li>
                 <li
@@ -605,6 +738,18 @@ ShallowWrapper {
                     activeClassName="active"
                     aria-current="page"
                     className="text-teal-lightest"
+                    to="/admin/categories"
+                  >
+                    Categories
+                  </NavLink>
+                </li>
+                <li
+                  className="mr-6"
+                >
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    className="text-teal-lightest"
                     to="/admin/new_post"
                   >
                     New Post
@@ -642,6 +787,18 @@ ShallowWrapper {
                       to="/admin/posts"
                     >
                       Posts
+                    </NavLink>
+                  </li>,
+                  <li
+                    className="mr-6"
+                  >
+                    <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
+                      to="/admin/categories"
+                    >
+                      Categories
                     </NavLink>
                   </li>,
                   <li
@@ -736,6 +893,39 @@ ShallowWrapper {
                       activeClassName="active"
                       aria-current="page"
                       className="text-teal-lightest"
+                      to="/admin/categories"
+                    >
+                      Categories
+                    </NavLink>,
+                    "className": "mr-6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "activeClassName": "active",
+                      "aria-current": "page",
+                      "children": "Categories",
+                      "className": "text-teal-lightest",
+                      "to": "/admin/categories",
+                    },
+                    "ref": null,
+                    "rendered": "Categories",
+                    "type": [Function],
+                  },
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <NavLink
+                      activeClassName="active"
+                      aria-current="page"
+                      className="text-teal-lightest"
                       to="/admin/new_post"
                     >
                       New Post
@@ -793,6 +983,11 @@ ShallowWrapper {
                 exact={true}
                 path="/admin/new_post"
               />,
+              <Route
+                component={[Function]}
+                exact={true}
+                path="/admin/categories"
+              />,
             ],
           },
           "ref": null,
@@ -844,6 +1039,19 @@ ShallowWrapper {
                 "component": [Function],
                 "exact": true,
                 "path": "/admin/new_post",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "component": [Function],
+                "exact": true,
+                "path": "/admin/categories",
               },
               "ref": null,
               "rendered": null,

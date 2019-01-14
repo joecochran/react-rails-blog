@@ -1,30 +1,25 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
 import Markdown from 'markdown-to-jsx';
 import { passCsrfToken } from '../util/helpers';
 
-class NewPost extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      title: '',
-      body: '',
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
-  }
+class NewPost extends Component {
+  state = {
+    title: '',
+    body: '',
+  };
 
   componentDidMount() {
     passCsrfToken(document, axios);
     document.title = 'New Post';
   }
 
-  handleChange(event) {
+  handleChange = (event) => {
     this.setState({ [event.target.name]: event.target.value });
   }
 
-  handleSubmit(event) {
+  handleSubmit = (event) => {
     const { title, body } = this.state;
     const { history } = this.props;
     event.preventDefault();

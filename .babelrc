@@ -29,7 +29,8 @@
           {
             "spec": true
           }
-        ]
+        ],
+        "transform-class-properties"
       ]
     }
   },
