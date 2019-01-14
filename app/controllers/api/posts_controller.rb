@@ -1,9 +1,9 @@
 module API
   class PostsController < ApplicationController
     def index
-      posts = Post.all
+      posts = Post.includes(:category)
       
-      render json: { posts: posts }
+      render json: { posts: posts }, include: :category
     end
 
     def show

@@ -38,6 +38,7 @@ class Posts extends React.Component {
         <thead>
           <tr>
             <th className="text-sm font-semibold text-grey-darker p-2 pl-0 bg-grey-lightest">Name</th>
+            <th className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest">Category</th>
             <th className="text-sm font-semibold text-grey-darker p-2 bg-grey-lightest">Date</th>
             <th className="text-sm font-semibold text-grey-darker p-2 pr-0 bg-grey-lightest" />
           </tr>
@@ -47,6 +48,9 @@ class Posts extends React.Component {
             <tr key={post.id}>
               <td className="p-2 pl-0 border-t border-grey-light whitespace-no-wrap">
                 <Link to={`/admin/posts/${post.id}`} className="text-teal-dark hover:text-teal-darker">{post.title}</Link>
+              </td>
+              <td className="p-2 border-t border-grey-light text-sm whitespace-no-wrap">
+                {post.category.title}
               </td>
               <td className="p-2 border-t border-grey-light text-sm whitespace-no-wrap">
                 <time dateTime={post.created_at}>{`${distanceInWordsToNow(post.created_at)} ago`}</time>
