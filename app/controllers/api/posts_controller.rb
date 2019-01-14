@@ -1,7 +1,7 @@
 module API
   class PostsController < ApplicationController
     def index
-      posts = Post.includes(:category)
+      posts = Post.all
       
       render json: { posts: posts }, include: :category
     end
@@ -9,7 +9,7 @@ module API
     def show
       post = Post.find(params[:id])
 
-      render json: { post: post }
+      render json: { post: post }, include: :category
     end
 
     def create
