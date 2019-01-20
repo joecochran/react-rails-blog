@@ -13,7 +13,7 @@ class Categories extends Component {
 
   getCategories() {
     axios.get('/api/categories').then((response) => {
-      this.setState({ categories: response.data.categories });
+      this.setState({ categories: response.data });
     });
   }
 
