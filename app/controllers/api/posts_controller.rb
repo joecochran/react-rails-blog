@@ -16,7 +16,7 @@ module API
 
     def destroy
       post = Post.find(params[:id])
-      
+
       post.destroy
 
       render json: { post: post }
@@ -32,8 +32,8 @@ module API
 
     private
 
-      def post_params
-        params.require(:post).permit(:title, :body)
-      end
+    def post_params
+      params.require(:post).permit(:title, :body)
+    end
   end
 end
