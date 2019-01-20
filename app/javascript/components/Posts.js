@@ -17,7 +17,7 @@ class Posts extends Component {
 
   getPosts() {
     axios.get('/api/posts').then((response) => {
-      this.setState({ posts: response.data.posts });
+      this.setState({ posts: response.data });
     });
   }
 
