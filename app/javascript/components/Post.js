@@ -17,7 +17,7 @@ class Post extends Component {
     const { id } = match.params;
 
     axios.get(`/api/posts/${id}`).then((response) => {
-      this.setState({ title: response.data.post.title, body: response.data.post.body });
+      this.setState({ title: response.data.title, body: response.data.body });
     });
   }
 
