@@ -8,7 +8,7 @@ json.category post.category
 #  {
 #    "id": 1,
 #    "name": "Post Title",
-#    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..."
+#    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed...",
 #    "category": {
 #      "id": 1,
 #      "title": "General"
