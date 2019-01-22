@@ -9,9 +9,13 @@ module API
     end
 
     def create
-      post = Post.create(title: params[:post_title], body: params[:post_body])
+      post = Post.new(post_params)
 
-      render json: { id: post.id }
+      if post.save
+        render status: :created
+      else
+        render json: { errors: post.errors }, status: :unprocessable_entity
+      end
     end
 
     def destroy
@@ -19,7 +23,7 @@ module API
 
       post.destroy
 
-      render json: { post: post }
+      head :ok
     end
 
     def update
